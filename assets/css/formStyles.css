@@ -1,0 +1,84 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-header h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Labels and Inputs */
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Placeholder styles */
+input::placeholder, textarea::placeholder {
+    color: #bbb; /* Light gray for placeholder */
+    font-style: italic;
+}
+
+/* Red asterisk for required fields */
+.required {
+    color: red;
+}
+
+/* Agreement text */
+.agreement {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #2980b9;
+}
+
+input:focus, textarea:focus {
+    outline-color: #3498db;
+}
